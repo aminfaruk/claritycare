@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html class="light" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Services | Clarity Core Care</title>
+<meta name="description" content="NDIS supports we deliver: assistance with daily life, social and community participation, consumables, transport, and home and living including SIL."/>
+<meta property="og:type" content="website"/>
+<meta property="og:title" content="Services | Clarity Core Care"/>
+<meta property="og:description" content="Five core areas of NDIS funding our team can help you access and use, including SIL."/>
+<meta property="og:image" content="logo.png"/>
+<link rel="icon" type="image/png" href="logo.png"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&amp;family=Manrope:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "gold-accent": "#b79053",
+                    "surface-variant": "#e4e2de",
+                    "on-primary-fixed-variant": "#004f51",
+                    "on-secondary-fixed": "#281800",
+                    "surface": "#fbf9f5",
+                    "outline-variant": "#bdc9c8",
+                    "tertiary-fixed": "#ffdbca",
+                    "error": "#ba1a1a",
+                    "on-tertiary-fixed": "#331100",
+                    "surface-tint": "#00696b",
+                    "on-tertiary-container": "#fff8f6",
+                    "inverse-primary": "#80d4d6",
+                    "surface-container-lowest": "#ffffff",
+                    "secondary-container": "#fdd08d",
+                    "on-secondary-container": "#785720",
+                    "on-primary-fixed": "#002020",
+                    "on-tertiary": "#ffffff",
+                    "on-secondary": "#ffffff",
+                    "tertiary-container": "#a5623c",
+                    "inverse-surface": "#30312e",
+                    "tertiary-fixed-dim": "#ffb68f",
+                    "surface-dim": "#dbdad6",
+                    "on-primary": "#ffffff",
+                    "background": "#fbf9f5",
+                    "tertiary": "#884a26",
+                    "primary-fixed": "#9cf1f2",
+                    "secondary-fixed": "#ffddae",
+                    "on-primary-container": "#e5ffff",
+                    "secondary-fixed-dim": "#ebc07e",
+                    "secondary": "#795921",
+                    "on-secondary-fixed-variant": "#5f410a",
+                    "primary-container": "#217f81",
+                    "inverse-on-surface": "#f2f0ed",
+                    "on-surface": "#1b1c1a",
+                    "primary": "#006567",
+                    "outline": "#6e7979",
+                    "on-surface-variant": "#3e4949",
+                    "on-tertiary-fixed-variant": "#703715",
+                    "on-error-container": "#93000a",
+                    "error-container": "#ffdad6",
+                    "surface-container-highest": "#e4e2de",
+                    "surface-bright": "#fbf9f5",
+                    "surface-container-low": "#f5f3ef",
+                    "on-error": "#ffffff",
+                    "on-background": "#1b1c1a",
+                    "surface-container": "#efeeea",
+                    "surface-container-high": "#eae8e4",
+                    "primary-fixed-dim": "#80d4d6"
+            },
+            "borderRadius": {
+                    "DEFAULT": "1rem",
+                    "lg": "2rem",
+                    "xl": "3rem",
+                    "full": "9999px"
+            },
+            "fontFamily": {
+                    "headline": ["Plus Jakarta Sans"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body { font-family: 'Manrope', sans-serif; }
+        .font-headline { font-family: 'Plus Jakarta Sans', sans-serif; }
+        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 400, 'GRAD' 0, 'opsz' 24; }
+        .no-line-rule { border: none !important; }
+        .reveal { opacity: 0; transform: translateY(12px); transition: opacity 0.8s cubic-bezier(0.16,1,0.3,1), transform 0.8s cubic-bezier(0.16,1,0.3,1); }
+        .reveal.in-view { opacity: 1; transform: translateY(0); }
+        .rounded-[3rem] { border-radius: 62% 38% 30% 70% / 55% 30% 70% 45%; }
+        .blob-b { border-radius: 30% 70% 70% 30% / 50% 60% 40% 50%; }
+        .blob-c { border-radius: 55% 45% 35% 65% / 40% 55% 45% 60%; }
+        .blob-d { border-radius: 70% 30% 50% 50% / 30% 60% 40% 70%; }
+        details.faq summary { list-style: none; cursor: pointer; }
+        details.faq summary::-webkit-details-marker { display: none; }
+    </style>
+</head>
+<body class="bg-surface text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
+<!-- TopNavBar -->
+<nav class="fixed top-0 w-full z-50 bg-[#faf8f4]/80 backdrop-blur-xl shadow-[0_10px_20px_rgba(0,79,81,0.04)] no-line-rule">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-3">
+<div class="flex items-center gap-4">
+<a href="index.html" class="flex items-center hover:scale-105 transition-transform duration-300">
+<img src="logo.png" alt="Clarity Core Care" class="h-14 w-auto" style="filter:drop-shadow(0 4px 14px rgba(33,127,129,0.18));"/>
+</a>
+<div class="hidden sm:block w-px h-12 rounded-full bg-outline-variant/40" aria-hidden="true"></div>
+<img src="ndisregistered.png" alt="NDIS Registered Provider" class="hidden sm:block h-14 w-auto object-contain" style="filter:drop-shadow(0 4px 14px rgba(33,127,129,0.18));"/>
+</div>
+<!-- Desktop Links -->
+<div class="hidden md:flex gap-8 items-center">
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent hover:scale-105 transition-all duration-300" href="index.html">Home</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent hover:scale-105 transition-all duration-300" href="about.html">About</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-[#217f81] font-bold border-b-2 border-gold-accent pb-0.5 hover:scale-105 transition-transform duration-300" href="services.html">Services</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent hover:scale-105 transition-all duration-300" href="contact.html">Contact</a>
+<a href="contact.html"><button class="ml-4 bg-gold-accent text-white px-6 py-2.5 rounded-full font-headline font-bold text-sm hover:brightness-110 hover:shadow-lg transition-all duration-300 active:scale-95 duration-200">
+                    Get in Touch
+                </button></a>
+</div>
+<!-- Mobile Menu Icon (Placeholder) -->
+<button id="mobile-menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" class="md:hidden flex items-center justify-center w-10 h-10 text-[#217f81]">
+<span class="material-symbols-outlined" id="mobile-menu-icon">menu</span>
+</button>
+</div>
+<div id="mobile-menu" class="hidden md:hidden border-t border-outline-variant/30 bg-[#faf8f4]">
+<div class="flex flex-col px-8 py-4">
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent transition-colors py-3 border-b border-outline-variant/30" href="index.html">Home</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent transition-colors py-3 border-b border-outline-variant/30" href="about.html">About</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-bold text-[#217f81] py-3 border-b border-outline-variant/30" href="services.html">Services</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent transition-colors py-3" href="contact.html">Contact</a>
+</div>
+</div>
+</nav>
+<main class="pt-28">
+<!-- Hero Section -->
+<section class="max-w-7xl mx-auto px-8 mb-16 grid lg:grid-cols-2 gap-12 items-center">
+<div class="relative">
+<span class="text-gold-accent font-label font-bold tracking-widest mb-2 block uppercase text-xs">What We Offer</span>
+<h1 class="font-headline text-3xl sm:text-5xl md:text-6xl lg:text-7xl leading-[1.05] font-extrabold text-primary tracking-tight mb-4">Our Services</h1>
+<svg class="w-40 h-3 text-gold-accent mb-6" viewBox="0 0 160 12" fill="none" aria-hidden="true">
+<path d="M2 6 Q 20 1, 40 6 T 80 6 T 120 6 T 158 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+</svg>
+<p class="text-body text-on-surface-variant leading-relaxed max-w-xl mb-6">
+                    Clarity Core Care delivers NDIS supports built around each participant's plan and goals. Explore the categories of support we offer and reach out to discuss what's right for you.
+                </p>
+<div class="flex gap-4 items-center">
+<div class="w-12 h-1 bg-gold-accent/40 rounded-full"></div>
+<p class="text-on-surface italic font-medium text-sm">Tailored support across every NDIS category we deliver.</p>
+</div>
+</div>
+<div class="relative group">
+<div class="absolute -inset-4 bg-gold-accent opacity-10 blur-xl group-hover:opacity-20 transition-opacity rounded-[3rem]"></div>
+<div class="relative overflow-hidden border-4 border-white rounded-[3rem]" style="box-shadow: 0 30px 80px -20px rgba(0, 101, 103, 0.3);">
+<img alt="Clarity Core Care community participation" class="w-full aspect-[4/3] object-cover transition-transform duration-700 group-hover:scale-[1.03]" src="img-services-hero.jpg" style="filter: brightness(0.95) contrast(1.08) saturate(0.95);"/>
+<div class="absolute inset-x-0 bottom-0 h-1/3 bg-gradient-to-t from-[#1b1c1a]/35 to-transparent pointer-events-none"></div>
+<div class="absolute inset-0 ring-1 ring-inset ring-white/10 rounded-[3rem] pointer-events-none"></div>
+</div>
+<div class="absolute -bottom-4 -left-4 w-32 h-32 bg-gold-accent/20 rounded-full blur-2xl -z-10"></div>
+</div>
+</section>
+<!-- Services Grid -->
+<section class="bg-surface-container-low py-16 rounded-xl mx-4 lg:mx-8 px-8">
+<div class="max-w-7xl mx-auto">
+<div class="text-center mb-12">
+<h2 class="font-headline text-[1.75rem] font-bold text-primary mb-2">NDIS Supports We Provide</h2>
+<p class="text-body text-on-surface-variant max-w-2xl mx-auto text-sm">Five core areas of NDIS funding our team can help you access and use.</p>
+</div>
+<div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+<!-- Service 1: Daily Life -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:translate-y-[-4px] transition-transform duration-300 border-b-2 border-transparent hover:border-gold-accent flex flex-col">
+<div class="w-14 h-14 bg-gold-accent/10 rounded-full flex items-center justify-center mb-5 text-gold-accent">
+<span class="material-symbols-outlined text-3xl">home</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-3 text-on-surface">Assistance with Daily Life</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6 flex-grow">
+                            Supports for independence at home, including personal care, cleaning, and cooking.
+                        </p>
+<a href="contact.html" class="inline-flex items-center gap-2 text-primary font-bold text-sm hover:gap-3 transition-all">
+                            Ask Us About This
+                            <span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+<!-- Service 2: Social & Community Participation -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:translate-y-[-4px] transition-transform duration-300 border-b-2 border-transparent hover:border-gold-accent flex flex-col">
+<div class="w-14 h-14 bg-gold-accent/10 rounded-full flex items-center justify-center mb-5 text-gold-accent">
+<span class="material-symbols-outlined text-3xl">groups</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-3 text-on-surface">Assistance with Social &amp; Community Participation</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6 flex-grow">
+                            Funding for participating in recreational and social activities.
+                        </p>
+<a href="contact.html" class="inline-flex items-center gap-2 text-primary font-bold text-sm hover:gap-3 transition-all">
+                            Ask Us About This
+                            <span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+<!-- Service 3: Consumables -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:translate-y-[-4px] transition-transform duration-300 border-b-2 border-transparent hover:border-gold-accent flex flex-col">
+<div class="w-14 h-14 bg-gold-accent/10 rounded-full flex items-center justify-center mb-5 text-gold-accent">
+<span class="material-symbols-outlined text-3xl">inventory_2</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-3 text-on-surface">Consumables</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6 flex-grow">
+                            Funding for everyday items related to a participant's disability, such as continence aids or nutritional products.
+                        </p>
+<a href="contact.html" class="inline-flex items-center gap-2 text-primary font-bold text-sm hover:gap-3 transition-all">
+                            Ask Us About This
+                            <span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+<!-- Service 4: Transport -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:translate-y-[-4px] transition-transform duration-300 border-b-2 border-transparent hover:border-gold-accent flex flex-col">
+<div class="w-14 h-14 bg-gold-accent/10 rounded-full flex items-center justify-center mb-5 text-gold-accent">
+<span class="material-symbols-outlined text-3xl">local_taxi</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-3 text-on-surface">Transport</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6 flex-grow">
+                            Assistance for travel, allowing participants to access the community when they cannot use public transport.
+                        </p>
+<a href="contact.html" class="inline-flex items-center gap-2 text-primary font-bold text-sm hover:gap-3 transition-all">
+                            Ask Us About This
+                            <span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+<!-- Service 5: Home and Living -->
+<div class="bg-surface-container-lowest p-8 rounded-lg shadow-sm hover:translate-y-[-4px] transition-transform duration-300 border-b-2 border-transparent hover:border-gold-accent flex flex-col">
+<div class="w-14 h-14 bg-gold-accent/10 rounded-full flex items-center justify-center mb-5 text-gold-accent">
+<span class="material-symbols-outlined text-3xl">cottage</span>
+</div>
+<h3 class="font-headline text-xl font-bold mb-3 text-on-surface">Home and Living</h3>
+<p class="text-on-surface-variant text-sm leading-relaxed mb-6 flex-grow">
+                            Covers support for living arrangements, including SIL (Supported Independent Living).
+                        </p>
+<a href="contact.html" class="inline-flex items-center gap-2 text-primary font-bold text-sm hover:gap-3 transition-all">
+                            Ask Us About This
+                            <span class="material-symbols-outlined text-base">arrow_forward</span>
+</a>
+</div>
+</div>
+</div>
+</section>
+<!-- FAQ Section -->
+<section class="max-w-4xl mx-auto px-8 py-16">
+<div class="text-center mb-12">
+<span class="text-gold-accent font-label font-bold tracking-widest mb-2 block uppercase text-xs">Good To Know</span>
+<h2 class="font-headline text-4xl md:text-5xl font-extrabold text-primary tracking-tight mb-3">Frequently Asked</h2>
+<svg class="w-32 h-3 text-gold-accent mx-auto" viewBox="0 0 160 12" fill="none" aria-hidden="true">
+<path d="M2 6 Q 20 1, 40 6 T 80 6 T 120 6 T 158 6" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+</svg>
+</div>
+<div class="space-y-4">
+<details class="faq bg-surface-container-lowest p-6 md:p-8 rounded-lg shadow-sm group">
+<summary class="flex justify-between items-center gap-4">
+<span class="font-headline font-bold text-on-surface text-lg">How do I get started with Clarity Core Care?</span>
+<span class="material-symbols-outlined text-primary shrink-0">add</span>
+</summary>
+<p class="text-on-surface-variant text-sm leading-relaxed mt-4">Reach out through the contact form or give us a call. A coordinator will walk you through your plan, the supports you're after, and book an initial conversation at a time that suits you.</p>
+</details>
+<details class="faq bg-surface-container-lowest p-6 md:p-8 rounded-lg shadow-sm">
+<summary class="flex justify-between items-center gap-4">
+<span class="font-headline font-bold text-on-surface text-lg">Can I use my self-managed or plan-managed funds?</span>
+<span class="material-symbols-outlined text-primary shrink-0">add</span>
+</summary>
+<p class="text-on-surface-variant text-sm leading-relaxed mt-4">Yes. As an NDIS registered provider we accept self-managed, plan-managed, and NDIA-managed participants across every service we deliver.</p>
+</details>
+<details class="faq bg-surface-container-lowest p-6 md:p-8 rounded-lg shadow-sm">
+<summary class="flex justify-between items-center gap-4">
+<span class="font-headline font-bold text-on-surface text-lg">How quickly can you mobilise support?</span>
+<span class="material-symbols-outlined text-primary shrink-0">add</span>
+</summary>
+<p class="text-on-surface-variant text-sm leading-relaxed mt-4">Most new supports can be mobilised within one to two weeks, depending on the care plan and worker matching. Urgent requests are handled case-by-case, talk to a coordinator for specifics.</p>
+</details>
+<details class="faq bg-surface-container-lowest p-6 md:p-8 rounded-lg shadow-sm">
+<summary class="flex justify-between items-center gap-4">
+<span class="font-headline font-bold text-on-surface text-lg">Do you cover evenings and weekends?</span>
+<span class="material-symbols-outlined text-primary shrink-0">add</span>
+</summary>
+<p class="text-on-surface-variant text-sm leading-relaxed mt-4">Yes. Supports are scheduled around the participant, not a 9-to-5. Evening, overnight, and weekend rosters are available subject to staffing and plan funding.</p>
+</details>
+<details class="faq bg-surface-container-lowest p-6 md:p-8 rounded-lg shadow-sm">
+<summary class="flex justify-between items-center gap-4">
+<span class="font-headline font-bold text-on-surface text-lg">What if my needs change during my plan?</span>
+<span class="material-symbols-outlined text-primary shrink-0">add</span>
+</summary>
+<p class="text-on-surface-variant text-sm leading-relaxed mt-4">Plans evolve, and so do we. Your coordinator reviews supports regularly and adjusts rosters, worker matches, or service types as your goals shift.</p>
+</details>
+<details class="faq bg-surface-container-lowest p-6 md:p-8 rounded-lg shadow-sm">
+<summary class="flex justify-between items-center gap-4">
+<span class="font-headline font-bold text-on-surface text-lg">How do I make a complaint or give feedback?</span>
+<span class="material-symbols-outlined text-primary shrink-0">add</span>
+</summary>
+<p class="text-on-surface-variant text-sm leading-relaxed mt-4">Contact your coordinator directly, or reach our feedback line through the contact page. We follow the NDIS Practice Standards for complaints handling, so every concern is logged, investigated, and followed up in writing.</p>
+</details>
+</div>
+</section>
+<!-- CTA Block -->
+<section class="max-w-7xl mx-auto px-8 py-16">
+<div class="relative bg-primary rounded-xl overflow-hidden shadow-2xl p-6 sm:p-8 md:p-12 text-on-primary ring-1 ring-white/20">
+<div class="absolute top-0 right-0 w-80 h-80 bg-gold-accent/10 rounded-full -translate-y-1/2 translate-x-1/2 blur-3xl"></div>
+<div class="absolute bottom-0 left-0 w-64 h-64 bg-white/5 rounded-full translate-y-1/2 -translate-x-1/2 blur-2xl"></div>
+<div class="relative z-10 flex flex-col lg:flex-row items-center gap-12">
+<div class="lg:w-2/3">
+<div class="inline-flex items-center gap-2 bg-white/10 px-4 py-2 rounded-full mb-6 backdrop-blur-sm border border-white/20">
+<span class="material-symbols-outlined text-gold-accent text-sm" style="font-variation-settings: 'FILL' 1;">verified</span>
+<span class="font-label font-bold text-xs tracking-widest uppercase">Talk To Our Team</span>
+</div>
+<h2 class="font-headline text-2xl sm:text-3xl md:text-[2.5rem] font-extrabold mb-6 leading-tight">Not sure which support fits?</h2>
+<p class="text-xl text-on-primary/90 mb-10 leading-relaxed font-body max-w-2xl">
+                            The Clarity Core Care team can walk you through the categories above, help you understand your NDIS plan, and find the right combination of supports for your goals.
+                        </p>
+<div class="flex flex-wrap gap-5">
+<a href="contact.html"><button class="bg-gold-accent text-white px-10 py-4 rounded-full font-headline font-bold text-sm hover:scale-105 transition-all duration-300 shadow-lg shadow-gold-accent/20 active:scale-95">
+                                Contact Us
+                            </button></a>
+</div>
+</div>
+<div class="lg:w-1/3 flex justify-center">
+<div class="w-56 h-56 bg-white/5 backdrop-blur-md rounded-2xl flex items-center justify-center border border-white/10 shadow-2xl relative group hover:rotate-3 transition-transform duration-500">
+<div class="text-center">
+<span class="material-symbols-outlined text-[4rem] text-gold-accent mb-4 block group-hover:scale-110 transition-transform">verified_user</span>
+<p class="font-headline font-black text-2xl tracking-tighter uppercase text-white">NDIS</p>
+<p class="font-label text-[10px] font-bold tracking-[0.2em] uppercase text-gold-accent">Registered Provider</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="w-full rounded-t-xl bg-[#217f81] text-white">
+<div class="flex flex-col md:flex-row justify-between items-start max-w-7xl mx-auto px-12 py-10 gap-8">
+<div class="max-w-sm">
+<div class="text-xl font-extrabold text-white mb-4">Clarity Core Care</div>
+<p class="font-['Manrope'] text-sm leading-relaxed text-white/80">
+                    Empowering lives through compassionate, dedicated, and professional NDIS support services across our community.
+                </p>
+</div>
+<div class="grid grid-cols-2 gap-12">
+<div class="flex flex-col gap-3">
+<p class="font-headline font-bold text-white mb-1 text-sm">Company</p>
+<a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="index.html">Home</a>
+<a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="about.html">About</a>
+<a class="text-white text-sm underline underline-offset-4 decoration-gold-accent hover:translate-x-1 transition-all duration-200" href="services.html">Services</a>
+</div>
+<div class="flex flex-col gap-3">
+<p class="font-headline font-bold text-white mb-1 text-sm">Support</p>
+<a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="contact.html">Contact</a>
+<a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="#">Privacy Policy</a>
+<a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="#">Terms of Service</a>
+</div>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-12 pb-8">
+<div class="pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="font-label text-xs text-white/60">© 2026 Clarity Core Care. NDIS Registered Provider.</p>
+</div>
+</div>
+</footer>
+<script>
+(function() {
+  var btn = document.getElementById('mobile-menu-toggle');
+  var menu = document.getElementById('mobile-menu');
+  var icon = document.getElementById('mobile-menu-icon');
+  if (btn && menu && icon) {
+    btn.addEventListener('click', function() {
+      var hidden = menu.classList.toggle('hidden');
+      btn.setAttribute('aria-expanded', hidden ? 'false' : 'true');
+      icon.textContent = hidden ? 'menu' : 'close';
+    });
+  }
+  if ('IntersectionObserver' in window) {
+    var sections = document.querySelectorAll('main section');
+    sections.forEach(function(s) { s.classList.add('reveal'); });
+    var io = new IntersectionObserver(function(entries) {
+      entries.forEach(function(e) {
+        if (e.isIntersecting) {
+          e.target.classList.add('in-view');
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.08, rootMargin: '0px 0px -8% 0px' });
+    sections.forEach(function(s) { io.observe(s); });
+  }
+})();
+</script>
+</body></html>

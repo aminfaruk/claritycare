@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" preserveAspectRatio="xMidYMid slice">
+  <rect width="400" height="400" fill="#eae8e4"/>
+  <g fill="#6e7979" font-family="'Plus Jakarta Sans', sans-serif" font-weight="700" text-anchor="middle">
+    <text x="200" y="200" font-size="44" letter-spacing="6">PLACEHOLDER</text>
+    <text x="200" y="240" font-size="14" letter-spacing="3" opacity="0.6">replace this image</text>
+  </g>
+</svg>
