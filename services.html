@@ -100,19 +100,18 @@
 <body class="bg-surface text-on-surface selection:bg-secondary-container selection:text-on-secondary-container">
 <!-- TopNavBar -->
 <nav class="fixed top-0 w-full z-50 bg-[#faf8f4]/80 backdrop-blur-xl shadow-[0_10px_20px_rgba(0,79,81,0.04)] no-line-rule">
-<div class="flex justify-between items-center max-w-7xl mx-auto px-8 py-3">
+<div class="flex justify-between items-center max-w-7xl mx-auto px-4 sm:px-8 py-3">
 <div class="flex items-center gap-4">
 <a href="index.html" class="flex items-center hover:scale-105 transition-transform duration-300">
 <img src="logo.png" alt="Clarity Core Care" class="h-14 w-auto" style="filter:drop-shadow(0 4px 14px rgba(33,127,129,0.18));"/>
 </a>
-<div class="w-px h-8 sm:h-12 rounded-full bg-outline-variant/40" aria-hidden="true"></div>
-<img src="ndisregistered.png" alt="NDIS Registered Provider" class="h-10 sm:h-14 w-auto object-contain" style="filter:drop-shadow(0 4px 14px rgba(33,127,129,0.18));"/>
 </div>
 <!-- Desktop Links -->
 <div class="hidden md:flex gap-8 items-center">
 <a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent hover:scale-105 transition-all duration-300" href="index.html">Home</a>
 <a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent hover:scale-105 transition-all duration-300" href="about.html">About</a>
 <a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-[#217f81] font-bold border-b-2 border-gold-accent pb-0.5 hover:scale-105 transition-transform duration-300" href="services.html">Services</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent hover:scale-105 transition-all duration-300" href="partners.html">Partners</a>
 <a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent hover:scale-105 transition-all duration-300" href="contact.html">Contact</a>
 <a href="contact.html"><button class="ml-4 bg-gold-accent text-white px-6 py-2.5 rounded-full font-headline font-bold text-sm hover:brightness-110 hover:shadow-lg transition-all duration-300 active:scale-95 duration-200">
                     Get in Touch
@@ -128,6 +127,7 @@
 <a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent transition-colors py-3 border-b border-outline-variant/30" href="index.html">Home</a>
 <a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent transition-colors py-3 border-b border-outline-variant/30" href="about.html">About</a>
 <a class="font-['Plus_Jakarta_Sans'] text-sm font-bold text-[#217f81] py-3 border-b border-outline-variant/30" href="services.html">Services</a>
+<a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent transition-colors py-3 border-b border-outline-variant/30" href="partners.html">Partners</a>
 <a class="font-['Plus_Jakarta_Sans'] text-sm font-medium text-slate-600 hover:text-gold-accent transition-colors py-3" href="contact.html">Contact</a>
 </div>
 </div>
@@ -262,7 +262,7 @@
 <span class="font-headline font-bold text-on-surface text-lg">Can I use my self-managed or plan-managed funds?</span>
 <span class="material-symbols-outlined text-primary shrink-0">add</span>
 </summary>
-<p class="text-on-surface-variant text-sm leading-relaxed mt-4">Yes. As an NDIS registered provider we accept self-managed, plan-managed, and NDIA-managed participants across every service we deliver.</p>
+<p class="text-on-surface-variant text-sm leading-relaxed mt-4">Yes. We accept self-managed, plan-managed, and NDIA-managed participants across every service we deliver.</p>
 </details>
 <details class="faq bg-surface-container-lowest p-6 md:p-8 rounded-lg shadow-sm">
 <summary class="flex justify-between items-center gap-4">
@@ -330,7 +330,7 @@
 </main>
 <!-- Footer -->
 <footer class="w-full rounded-t-xl bg-[#217f81] text-white">
-<div class="flex flex-col md:flex-row justify-between items-start max-w-7xl mx-auto px-12 py-10 gap-8">
+<div class="flex flex-col md:flex-row justify-between items-start max-w-7xl mx-auto px-6 sm:px-12 py-10 gap-8">
 <div class="max-w-sm">
 <div class="text-xl font-extrabold text-white mb-4">Clarity Core Care</div>
 <p class="font-['Manrope'] text-sm leading-relaxed text-white/80">
@@ -343,18 +343,21 @@
 <a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="index.html">Home</a>
 <a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="about.html">About</a>
 <a class="text-white text-sm underline underline-offset-4 decoration-gold-accent hover:translate-x-1 transition-all duration-200" href="services.html">Services</a>
+<a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="partners.html">Partners</a>
 </div>
 <div class="flex flex-col gap-3">
 <p class="font-headline font-bold text-white mb-1 text-sm">Support</p>
 <a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="contact.html">Contact</a>
-<a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="#">Privacy Policy</a>
-<a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="#">Terms of Service</a>
+<a class="text-white/80 text-sm hover:text-gold-accent hover:translate-x-1 transition-all duration-200" href="privacy.html">Privacy Policy</a>
 </div>
 </div>
 </div>
-<div class="max-w-7xl mx-auto px-12 pb-8">
+<div class="max-w-7xl mx-auto px-6 sm:px-12 pb-8">
 <div class="pt-6 border-t border-white/10 flex flex-col md:flex-row justify-between items-center gap-4">
-<p class="font-label text-xs text-white/60">© 2026 Clarity Core Care. NDIS Registered Provider.</p>
+<div>
+<p class="font-label text-xs text-white/60">© 2026 Clarity Core Care.</p>
+<p class="font-label text-[10px] text-white/40 mt-1">ABN 70 694 991 912</p>
+</div>
 </div>
 </div>
 </footer>
